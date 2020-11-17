@@ -14,4 +14,8 @@ public class App
         System.out.println("Hello this is the test code");
         System.out.println("this is the new change");
     }
+
+    public void newEdit() {
+        System.out.println("The new feature has been added");
+    }
 }
