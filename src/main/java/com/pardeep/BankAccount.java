@@ -10,13 +10,15 @@ public class BankAccount {
         this.lastName = lastName;
         this.balance = balance;
     }
-// branch argument is true if the customer is performing a transaction at a branch with a teller
+
+    // branch argument is true if the customer is performing a transaction at a branch with a teller
     //is false if the customer is performing the transaction at a ATM
-    public double deposit(double amount, boolean branch){
+    public double deposit(double amount, boolean branch) {
         balance += amount;
         return balance;
     }
-    public double withdraw(double amount, boolean branch){
+
+    public double withdraw(double amount, boolean branch) {
         balance -= amount;
         return balance;
     }
