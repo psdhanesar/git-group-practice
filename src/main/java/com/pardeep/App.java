@@ -10,4 +10,7 @@ public class App
         Customers customers = new Customers("amrit", 1);
         System.out.println(customers);
     }
+    public void printDetials(){
+        System.out.println("Hello this is the test code");
+    }
 }
