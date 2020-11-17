@@ -7,7 +7,7 @@ public class App
     {
         System.out.println("The application");
 
-        Customers customers = new Customers("amrit", 1);
+        Customers customers = new Customers("mohit", 1);
         System.out.println(customers);
     }
     public void printDetails(){
