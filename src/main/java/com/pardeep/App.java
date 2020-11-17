@@ -17,4 +17,8 @@ public class App
     public void newAddedFeature(){
         System.out.println("This is the new added feature");
     }
+
+    public void newEdit() {
+        System.out.println("The new feature has been added");
+    }
 }
