@@ -2,6 +2,7 @@ package com.pardeep;
 
 public class Customers {
     private String name;
+    private String lastName;
     private int id;
 
     public Customers(String name, int id) {
